@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <div class="header">
+    <div class="left-links"><h1>Leafy Cafe</h1></div>
+    <nav>
+      <ul class="right-links">
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Visit</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <style>
+    .header{
+      background-color: #2d6a4f;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:16px 100px;
+      
+    }
+
+    .left-links h1{
+      color: aliceblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin:0;
+    }
+
+    .right-links{
+      display:flex;
+      gap: 30px;
+      list-style: none;
+
+    }
+
+    a{
+      list-style: none;
+      text-decoration: none;
+      color: aliceblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body{
+      margin:0;
+    }
+
+
+    h1{
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hero-section{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button{
+
+      color: #ffffff;
+      background-color: #2d6a4f;
+      border-radius: 18px;
+      padding:10px;
+      border:none;
+
+    }
+
+    h4{
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 100;
+      color: darkgrey;
+
+    }
+
+    .container{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+
+    }
+
+    .description{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .items{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card-row{
+      display:flex;
+      gap:40px;
+      margin-bottom: 50px;
+    }
+
+    h2{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .box{
+      padding: 70px;
+      background-color: #d8e8dc;
+      margin: 20px;
+      border-radius: 14px;
+    }
+
+    p{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .reveiws{
+      background-color: #2d6a4f;
+      color:#ffffff;
+      padding: 4px;
+      margin-bottom:50px;
+    }
+
+   .quote{
+    justify-content: center;
+    display: flex;
+
+   } 
+
+   p{
+    text-align: center;
+   }
+
+   .info{
+    justify-content: center;
+
+   }
+
+   .hours{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   .info p{
+    color: darkgrey;
+   }
+
+   .footer{
+    background-color: #283624;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 50px;
+   }
+  </style>
+
+ </head> 
+ 
+
+<body>
+
+  <section class="hero-section">
+    <div class="container">
+    <h1>Fresh coffee. Calm mornings.</h1>
+    <h4>A small neigbourhood cafe in Abuja</h4>
+    <button>See our menu</button>
+    </div>
+  </section>
+
+  <section>
+    <div class="description">
+      <h2>What we serve</h2>
+<div class="card-row">
+      <div class="items">
+      <div class="box"></div>
+      <p>Coffee</p>
+      </div>
+
+      <div class="items">
+      <div class="box"></div>
+      <p>Pastries</p>
+      </div>
+
+      <div class="items">
+      <div class="box"></div>
+      <p>Smoothies</p>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <section class="reveiws">
+    <blockquote class="quote"><h2><em>"Best Zobo Smoothie in town"</em></h2></blockquote>
+    <p>- a regular customer</p>
+  </section>
+
+  <section class="info">
+      <h3 class="hours">Open Mon-Sat, 8am - 6pm</h3>
+      <p>12 Garden Street, Abuja</p>
+  </section>
+
+  <footer class="footer">&copy; 2026 leafy cafe</footer>
+</body>
+</html>
